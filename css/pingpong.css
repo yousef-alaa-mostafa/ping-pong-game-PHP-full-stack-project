@@ -1,0 +1,86 @@
+/* DO NOT TOUCH TOUCH THIS FILE */
+html,body{
+  margin:0;
+  padding: 0;
+}
+
+.body-dark{
+  overflow: hidden;
+  background-color: black;
+}
+
+.left-dark{
+  position: relative;
+  width: 30px;
+  height: 200px;
+  background-color: white;
+  float: left;
+}
+
+.right-dark{
+  position: relative;
+  width: 30px;
+  height: 200px;
+  background-color: white;    
+  float: right;
+}
+
+.ball-dark{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color:white;
+  border-radius: 50%;
+}
+
+.deli-dark,.scoreleft-dark,.scoreright-dark{
+  font-size: 1000%;
+  color: white;
+  z-index: 10;
+}
+
+
+
+
+.body-light{
+  overflow: hidden;
+  background-color: white;
+}
+
+.left-light{
+  position: relative;
+  width: 30px;
+  height: 200px;
+  background-color: black;
+  float: left;
+}
+
+.right-light{
+  position: relative;
+  width: 30px;
+  height: 200px;
+  background-color: black;    
+  float: right;
+}
+
+.ball-light{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color:black;
+  border-radius: 50%;
+}
+
+.deli-light,.scoreleft-light,.scoreright-light{
+  font-size: 1000%;
+  color: black;
+  z-index: 10;
+}
+
+
+
+#goal{
+  font-size: 1000%;
+  transition: 1.5s all;
+  display: inline-block;
+}

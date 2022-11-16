@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ping Pong GaMe</title>
+    <script src="js/jquery.min.js"></script>
+
+    <script>
+      function switchTheme() {}
+    </script>
+    <link href="css/pingpong.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body class="body-dark" id="body">
+    <header>
+      <form action="logout.php" style="display: inline">
+        <button onclick="logout.php">Log out</button>
+      </form>
+      <button onclick="switchTheme()">Switch Theme</button>
+    </header>
+    <div id="left" class="left-dark"></div>
+    <div id="ball" class="ball-dark"></div>
+    <div id="right" class="right-dark"></div>
+    <center>
+      <span id="scoreleft" class="scoreleft-dark">0 </span>
+      <span id="deli" class="deli-dark"> : </span>
+      <span id="scoreright" class="scoreright-dark"> 0</span>
+      <br />
+      <span id="goal">GOAL !!!</span>
+      <script src="js/pingpong.js"></script>
+    </center>
+  </body>
+</html>
